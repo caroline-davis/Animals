@@ -1,0 +1,47 @@
+.joker {
+  background-color: black;
+  color: white;
+  font-size: 36px;
+}
+.video {
+  background-color: #237347;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.animal-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #237347;
+  justify-content: center;
+}
+
+img {
+  width: 30%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.monkey-fact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 54px;
+}
+
+.animals-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.sing-along {
+  margin-bottom: 20px;
+}
