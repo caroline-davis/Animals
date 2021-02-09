@@ -1,9 +1,9 @@
 import React from 'react';
 import { Flower3 } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
-import './Navbar.css'
+import './Styles/Navbar.css'
 
-export default () => {
+export default function Navbar() {
     return (
         <div>
             <nav className="navbar sticky-top navbar-dark bg-dark">

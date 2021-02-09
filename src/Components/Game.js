@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
-import './Game.css'
+import './Styles/Game.css'
 import AnimalCard from './AnimalCard'
 import { animals } from '../Constants'
 
-export default () => {
+export default function Game() {
 
     const [selectedAnimal, setSelectedAnimal] = useState(null)
 

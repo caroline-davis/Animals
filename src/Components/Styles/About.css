@@ -1,0 +1,29 @@
+h1 {
+  margin-left: 0px;
+}
+
+.about-us-row {
+  background-color: #237347;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-container {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.about-us-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.polar-img {
+  width: 80%;
+  min-width: 300px;
+  filter: contrast(2);
+  border-width: 5px;
+  padding: 10px;
+}

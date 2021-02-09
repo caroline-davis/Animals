@@ -7,9 +7,9 @@ import Col from 'react-bootstrap/Col'
 
 import { RHINO_URL, ELEPHANT_URL, monkeyContent, joke, jokeAnswer } from '../Constants'
 import Video from './Video'
-import './Home.css'
+import './Styles/Home.css'
 
-export default () => {
+export default function Home() {
     return (
         <>
             <Navbar />
@@ -23,12 +23,10 @@ export default () => {
                     </Col>
                 </Row>
                 <Row className="monkey-fact">
-                    {/* Stack the columns on mobile by making one full-width and the other half-width */}
                     <Col xs={12} sm={12} md={6} lg={4}>
                         <h2>Did you know?</h2>
                     </Col>
-                    {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-                    <Col className="column-type-phone6-and-medium4" xs={12} sm={12} md={6} lg={8}>
+                    <Col xs={12} sm={12} md={6} lg={8}>
                         {monkeyContent}
                     </Col>
                 </Row>
