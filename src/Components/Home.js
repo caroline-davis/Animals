@@ -30,7 +30,6 @@ export default () => {
                     {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
                     <Col className="column-type-phone6-and-medium4" xs={12} sm={12} md={6} lg={8}>
                         {monkeyContent}
-
                     </Col>
                 </Row>
                 <Row className='sing-along'>
@@ -38,7 +37,7 @@ export default () => {
                         <Video className="animals-video" />
                     </Col>
                     <Col className="joker" xs={12} sm={12} md={6} lg={8}>
-                        {joke}<br/>{jokeAnswer}
+                        {joke}<br />{jokeAnswer}
                     </Col>
                 </Row>
             </Container>

@@ -5,3 +5,21 @@ export const monkeyContent = "Monkey is a common name that may refer to groups o
 
 export const joke = "Where do milkshakes come from?"
 export const jokeAnswer = "Nervous cows!"
+
+export const animals = [
+    { 'name': 'lion', 'sound': 'roar' },
+    { 'name': 'duck', 'sound': 'quack' },
+    { 'name': 'dog', 'sound': 'woof' },
+    { 'name': 'bird', 'sound': 'tweet' },
+    { 'name': 'cow', 'sound': 'moo' },
+    { 'name': 'cat', 'sound': 'meow' },
+    { 'name': 'horse', 'sound': 'neigh' },
+    { 'name': 'mouse', 'sound': 'squeak' },
+    { 'name': 'goose', 'sound': 'honk' }
+]
+
+export const sponsors = [
+    { 'name': 'the animal company', 'location': 'japan' },
+    { 'name': 'toys r us', 'location': 'usa' },
+    { 'name': 'zebras forever', 'location': 'africa' }
+]

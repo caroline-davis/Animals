@@ -11,6 +11,7 @@ export default () => {
                     <div className="navbar-brand">
                         <Flower3 color="white" size={48} />
                         <Link className="nav-item" to='/'>home</Link>
+                        <Link className="nav-item" to='/game'>game</Link>
                         <Link className="nav-item" to='/about'>about</Link>
                         <Link className="nav-item" to='/contact'>contact</Link>
                     </div>
