@@ -26,7 +26,7 @@ export const animals = [
 
 export const sponsors = [
     { 'name': 'the animal company', 'location': 'japan' },
-    { 'name': 'toys r us', 'location': 'usa' },
+    { 'name': 'toys r us', 'location': 'china' },
     { 'name': 'zebras forever', 'location': 'africa' }
 ]
 

@@ -27,3 +27,8 @@ h1 {
   border-width: 5px;
   padding: 10px;
 }
+
+.sponsor-container {
+  margin-top: 10px;
+  text-transform: capitalize;
+}

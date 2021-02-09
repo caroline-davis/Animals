@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col'
 
 import Navbar from './Navbar'
 import './Styles/About.css'
-import Sponsor from './Sponsor'
 import { sponsors, aboutUsContentpOne, aboutUsContentpTwo, aboutUsContentpThree, POLAR_BEAR_URL } from '../Constants'
 
 export default function About() {
@@ -22,11 +21,13 @@ export default function About() {
                         <img className='polar-img' src={POLAR_BEAR_URL} alt="polar-bear-img" />
                     </Col>
                 </Row>
-                <h4>Sponsors:</h4>
-                {sponsors.map(sponsor => (
-                    <Sponsor sponsor={sponsor} />
+                <div className='sponsor-container'>
+                    <b>Sponsors:</b>
+                    {sponsors.map((sponsor, index) => (
+                        ` ${sponsor.name} - ${sponsor.location} ${index < sponsors.length - 1 ? ',\u00A0' : ''}`
 
-                ))}
+                    ))}
+                </div>
             </Container>
 
         </>
