@@ -24,7 +24,7 @@ export default function About() {
                 <div className='sponsor-container'>
                     <b>Sponsors:</b>
                     {sponsors.map((sponsor, index) => (
-                        ` ${sponsor.name} - ${sponsor.location} ${index < sponsors.length - 1 ? ',\u00A0' : ''}`
+                        ` ${sponsor.name} - ${sponsor.location}${index < sponsors.length - 1 ? ', ' : ''}`
 
                     ))}
                 </div>

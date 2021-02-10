@@ -1,0 +1,17 @@
+.form-group {
+  padding: 5px;
+}
+
+.btn {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.form-control-file {
+  max-width: 250px;
+}
+
+.alert {
+  margin-left: 5px;
+  margin-top: 10px;
+}
